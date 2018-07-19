@@ -148,6 +148,7 @@ public class SonarGitBranchDeletionSyncMojo extends AbstractMojo {
 			}
 
 			conn.disconnect();
+			System.out.println("Hello World!");
 			return joiner.toString();
 		}
 		catch ( Exception e ) {
