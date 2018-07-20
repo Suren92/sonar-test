@@ -144,7 +144,7 @@ public class SonarGitBranchDeletionSyncMojo extends AbstractMojo {
 
 			String output;
 			while ( ( output = br.readLine() ) != null ) {
-				joiner.add( output );
+				joiner.add( output );k
 			}
 
 			conn.disconnect();
